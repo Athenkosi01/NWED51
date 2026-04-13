@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HandInHand Organ Donation Form</title>
+        <link rel="stylesheet" href="formstyle.css">
+    </head>
+            
+               
+    <body>
+        <p id="form">
+        <header>
+            <h1>HandInHand Organ Donation Network</h1>
+            <p>Register as an Organ Donor</p>
+        </header>
+
+        <div class="container">
+
+            <h2>Organ Donation Registration Form</h2>
+
+            <form action="" method="POST">
+
+                <label> Name</label>
+                <input type="text" name="name" required>
+
+                 <label>Surname</label>
+                <input type="text" name="surname" required>
+
+                <label>Email Address</label>
+                <input type="email" name="email" required>
+
+                <label>Cellphone Number</label>
+                <input type="tel" name="phone" required>
+
+                <label>Date of Birth</label>
+                <input type="date" name="dob" required>
+
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="">Select</option>
+                    <option value="Female">Female</option>
+                    <option value="Male">Male</option>
+                    <option value="Other">Other</option>
+                </select>
+
+                <label>Country</label>
+                <input type="text" name="country">
+
+                <label>blood type</label>
+                <select id="blood_type" name="blood_type" required>
+                     <option value="">Select</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+
+
+                </select>
+
+                <label>Which organ do you want to donate ?</label>
+                <select name="organ">
+                    <option value="">Select</option>
+                    <option value="Heart">Heart</option>
+                    <option value="Kidney">Kidney</option>
+                    <option value="Liver">Liver</option>
+                    <option value="Lungs">Lungs</option>
+                    <option value="All Organs">All Organs</option>
+                </select>
+
+                <label>Do you have any medical condition ?</label>
+                <textarea name="medical_condition" rows="4" placeholder="Enter medical conditions if applicaple..."></textarea>
+
+                <label>
+                    <input type="checkbox" name="terms_accepted" required>
+                     I have read and understood the <a href="terms and conditions.html">terms and conditions</a>
+                </label>
+
+
+                <button type="submit" name="submit" value="register" onclick="myFunction()">Submit Registration</button>
+               
+         </form>
+
+        </div>
+
+    </body>
+</html>
