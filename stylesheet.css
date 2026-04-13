@@ -1,0 +1,18 @@
+
+form{
+background:white;
+padding:20px;
+border-radius:5px;
+}
+
+button:hover{
+background:#e6beba;
+}
+
+button{
+background:#c0392b;
+color:white;
+border:none;
+padding:10px 20px;
+cursor:pointer;
+}
